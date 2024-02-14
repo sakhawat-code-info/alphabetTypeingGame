@@ -7,8 +7,9 @@ function showById(elementId) {
     element.classList.remove('hidden');
 }
 
-function addBgColorById(params) {
-
+function setBgColorById(elementId) {
+    const element = document.getElementById(elementId);
+    element.classList.add('bg-orange-400')
 }
 
 function getARandomAlphabet() {

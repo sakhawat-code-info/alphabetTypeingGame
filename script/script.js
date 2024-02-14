@@ -14,7 +14,8 @@
 function continueGame() {
     const alphabet = getARandomAlphabet();
     const display = document.getElementById('display');
-    display.innerText = alphabet
+    display.innerText = alphabet;
+    setBgColorById(alphabet);
 }
 
 function playNow() {
