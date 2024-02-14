@@ -96,22 +96,22 @@
                     <button class="btn bg-[#894189] border-0 text-white text-2xl">
                         Life
                         <img src="images/life.svg" alt="">
-                        <span>1</span>
+                        <span id="lifeId">3</span>
                     </button>
                     <button class="btn bg-[#894189] border-0 text-white text-2xl">
                         Scar
                         <img src="images/scor.svg" alt="">
-                        <span>1</span>
+                        <span id="scorId">0</span>
                     </button>
                 </div>
             </div>
         </section>
 
         <!-- scor section  -->
-        <section id="scor" class="hidden flex justify-center items-center min-h-screen">
+        <section id="scorSectionId" class="hidden flex justify-center items-center min-h-screen">
             <div class="flex flex-col items-center space-y-5 bg-[#FFFFFF33] p-10 rounded">
-                <h1 class="text-7xl font-extrabold">Score : <span>14</span></h1>
-                <button class="btn bg-white text-black px-5">Play Again</button>
+                <h1 class="text-7xl font-extrabold">Score : <span id="finalScor">14</span></h1>
+                <button onclick="playNow()" class="btn bg-white text-black px-5">Play Again</button>
                 <p>Practice will make you Pro</p>
             </div>
         </section>
