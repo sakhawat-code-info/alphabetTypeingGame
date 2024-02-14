@@ -7,6 +7,9 @@ function showById(elementId) {
     element.classList.remove('hidden');
 }
 
+function addBgColorById(params) {
+
+}
 
 function getARandomAlphabet() {
     const alphabetString = "abcdefghijklmnopqrstuvwxyz";
